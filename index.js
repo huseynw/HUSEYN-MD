@@ -1,8 +1,8 @@
 import "dotenv/config";
 import makeWASocket, {
+import makeWASocket, {
   useMultiFileAuthState,
-  DisconnectReason,
-  fetchLatestBaileysVersion
+  DisconnectReason
 } from "@whiskeysockets/baileys";
 import pino from "pino";
 import chalk from "chalk";
