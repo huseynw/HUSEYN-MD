@@ -1,0 +1,19 @@
+{
+  "name": "huseyn-md",
+  "version": "1.0.0",
+  "description": "HUSEYN-MD modular WhatsApp bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "pair": "node index.js --pair",
+    "session": "node index.js --session"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.3.0",
+    "pino": "^9.3.2",
+    "readline-sync": "^1.4.10"
+  }
+}
