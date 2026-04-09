@@ -3,7 +3,7 @@ import makeWASocket, {
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion
-} from "baileys";
+} from "@whiskeysockets/baileys";
 import pino from "pino";
 import chalk from "chalk";
 import fs from "fs-extra";
